@@ -21,9 +21,12 @@ class Program
         var connection = await connectionFactory.CreateConnectionAsync();
         IChannel channel = await connection.CreateChannelAsync();
 
+        // accept only one unack-ed message at a time
+        // uint prefetchSize, ushort prefetchCount, bool global
+        await channel.BasicQosAsync(0, 1, false);
+        
         MessageReceiver messageReceiver = new MessageReceiver(channel);
         await channel.BasicConsumeAsync("demoQueue", false, messageReceiver);
-
 
         Console.ReadLine();
     }

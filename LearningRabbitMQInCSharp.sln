@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestRabbitMQ", "RequestR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsumer", "RabbitMQConsumer\RabbitMQConsumer.csproj", "{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_PublishMessage", "01_PublishMessage", "{85FD5FD9-22A3-4B12-BC48-59162EBBB92B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_DirectMessage", "02_DirectMessage", "{71A7B15E-BC8F-4549-9EC0-1907AE536CB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,9 @@ Global
 		{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A} = {85FD5FD9-22A3-4B12-BC48-59162EBBB92B}
+		{3EC50F12-89CD-46D4-AC41-B5A015A37F9D} = {85FD5FD9-22A3-4B12-BC48-59162EBBB92B}
 	EndGlobalSection
 EndGlobal
