@@ -1,7 +1,7 @@
 using System.Text;
 using RabbitMQ.Client;
 
-namespace RequestDirectMessage;
+namespace RequestDirectSender;
 
 public class DirectMessage
 {

@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 
-namespace RequestRabbitMQ;
+namespace PublishMessageSender;
 
 class Program
 {
@@ -34,8 +34,6 @@ class Program
         byte[] messageBuffer = Encoding.Default.GetBytes(message);
         await model.BasicPublishAsync("demoExchange","directexchange_key",messageBuffer);
         Console.WriteLine("Message Sent");
-        
-        
         
         Console.ReadLine();
     }

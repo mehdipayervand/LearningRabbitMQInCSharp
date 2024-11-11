@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestRabbitMQ", "RequestRabbitMQ\RequestRabbitMQ.csproj", "{3EC50F12-89CD-46D4-AC41-B5A015A37F9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishMessageSender", "PublishMessageSender\PublishMessageSender.csproj", "{3EC50F12-89CD-46D4-AC41-B5A015A37F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsumer", "RabbitMQConsumer\RabbitMQConsumer.csproj", "{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishMessageConsumer", "PublishMessageConsumer\PublishMessageConsumer.csproj", "{C063F2BB-E7DD-40F1-A43F-247FB3EACC5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_PublishMessage", "01_PublishMessage", "{85FD5FD9-22A3-4B12-BC48-59162EBBB92B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_DirectMessage", "02_DirectMessage", "{71A7B15E-BC8F-4549-9EC0-1907AE536CB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestDirectMessage", "RequestDirectMessage\RequestDirectMessage.csproj", "{14AA40D2-5FF1-4FAB-8426-96A8482C6679}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestDirectSender", "RequestDirectSender\RequestDirectSender.csproj", "{14AA40D2-5FF1-4FAB-8426-96A8482C6679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿namespace RequestDirectMessage;
+﻿namespace RequestDirectSender;
 
 class Program
 {
