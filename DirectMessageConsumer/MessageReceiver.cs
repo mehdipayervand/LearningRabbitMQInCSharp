@@ -1,7 +1,7 @@
 using System.Text;
 using RabbitMQ.Client;
 
-namespace RequestDirectConsumer;
+namespace DirectMessageConsumer;
 
 public class MessageReceiver : AsyncDefaultBasicConsumer
 {

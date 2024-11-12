@@ -1,4 +1,4 @@
-﻿namespace RequestDirectSender;
+﻿namespace RequestDirectProducer;
 
 class Program
 {

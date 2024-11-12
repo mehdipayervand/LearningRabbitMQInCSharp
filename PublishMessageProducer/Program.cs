@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 
-namespace PublishMessageSender;
+namespace PublishMessageProducer;
 
 class Program
 {

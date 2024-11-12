@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Client;
 
-namespace RequestDirectConsumer;
+namespace DirectMessageConsumer;
 
 class Program
 {
